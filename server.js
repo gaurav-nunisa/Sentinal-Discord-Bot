@@ -25,13 +25,13 @@ client.on("messageCreate", (message) => {
         .then(() => console.log('Embed with GIF sent!'))
             .catch(console.error);
     }
-    if(message.content.includes("cum")){
+    if(message.content.toLowerCase().includes("cum")){
         message.channel.send("BKL MUU MEI CUM KARDUNGAAA!!!!")
     }
-    if(message.content.includes("fak", "fuck" , "fuk")){
+    if(message.content.toLowerCase().includes("fak")){
         message.channel.send("BKL FAK PHUK MAAT KAR YAHA ")
     }
-    if(message.content.includes("sex", "sax", "chex", "sux")){
+    if(message.content.toLowerCase().includes("sex")){
         message.channel.send("SEX CHUX KI BAAT KARTA HEI SALA VIRGIN!!!")
     }
    

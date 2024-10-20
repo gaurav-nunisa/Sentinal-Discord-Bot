@@ -4,7 +4,9 @@
   "description": "Discord Bot",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "server" : "nodemon server.js",
+    "start": "node server.js",
+    "build" : "npm install"
   },
   "author": "Gaurav Nunisa",
   "license": "ISC",

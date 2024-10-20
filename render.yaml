@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: discord-bot
+    env: node
+    build:
+      context: .
+      docker:
+        - node:14
+    start:
+      command: npm start
