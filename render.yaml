@@ -1,10 +1,8 @@
 services:
-  - type: web
+  - type: worker
     name: discord-bot
     env: node
     build:
-      context: .
-      docker:
-        - node:14
+      command: npm ci
     start:
-      command: npm start
+      command: node server.js
